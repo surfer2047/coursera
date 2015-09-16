@@ -1,0 +1,82 @@
+to install visit http://railsapps.github.io/installing-rails.html
+Ubuntu Linux
+============
+install node js
+install rvm 
+using rvm install ruby and rails
+go to rvm.io
+
+summary
+---------
+1. install nodejs
+2. install rvm
+$ sudo gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+$ \curl -sSL https://get.rvm.io | bash -s stable --rails --ruby
+
+3. if already install upgrade rmv
+$ rvm get stable --autolibs=enable
+$ rvm install ruby
+$ rvm --default use ruby-2.2.2
+
+Ruby Gem: Ruby gem is the package manager for ruby
+==================================================
+gem -v 
+gem update --system (upgrade the ruby version manager) 
+gem list
+gem outdate (list the outdate gemset)
+gem update
+gem install nokogiri (gem that is dependency for many other gem, gem requires compilation for specific operating system)
+gem install rails (install the lateset version of rails)
+gem install rails --pre (install the beta veresion of rails)
+gem install rails --version=3.2.18 
+gem install bundler ( bundler gem essential tool for managing gems when developing and running rails application)
+echo "gem: --no-document" >> ~/.gemrc (This will make the gem install fast by avoiding the document installation)
+rvm commands
+=================
+rvm install ruby=2.2.2
+rvm --default use ruby-2.2.2
+rvm get stable --autolibs=enable
+rvm gemset list
+rvm gemset use global
+rvm use ruby-2.2.2@rails4.2 --create ( install the rails 4.2) in globalgemset
+rails new
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+oo

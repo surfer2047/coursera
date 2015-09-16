@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dating Website</title>
+	<meta content="keywords" description="dating website in nepal">
+	<meta charset="utf-8">
+	<meta content="author" description="Manoj Gautam">
+	<script type="text/javascript" src="http://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+	<style type="text/css">
+	.red{
+		background-color: red;
+
+		
+		
+		
+	}
+
+	.purple{
+		background-color: purple;
+		
+		
+		
+	
+
+		}
+
+		span{
+			width: 70px;
+            
+            display: inline-block;
+           
+            padding: 10px;
+            vertical-align: top;
+
+		}
+
+		
+
+		fieldset {
+			border: 10px yellow solid;
+			margin-bottom: 10px;
+			background-color: #FEFDDF;
+			width: 720px;	
+		}
+
+	input {
+		margin: 5px;
+	}
+		textarea {
+			width: 360px;
+			height: 50px;
+			vertical-align: text-top;
+			
+			}
+
+		label {
+			width: 180px;
+			display: inline-block;
+		    vertical-align: text-top;
+		    text-align: right;
+
+		}
+
+		.auto {
+			width: auto;
+		}
+
+	label:hover {
+		font-size: 40px;
+	}
+
+    input:hover {
+    	font-size: 40px;
+    }
+	</style>
+	</head>
+	
+<body>
+	<h1>Please Enter Your Details for  Our Dating Website</h1>
+	<form enctype="multipart/form-data" method="post" action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php">
+		<fieldset>
+			<legend>Your face</legend>
+				<label for="avatar" >your image</label>
+				<img id="preview">
+				<input type="file" id="avatar" required name="avatar"><br>
+				<label>Image preview</label><br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Your general details</legend>
+				<label>Name</label>
+				<input type="text" required name="name">
+				<br>
+				<label>Gender</label>
+				<input type="radio" name="gender" required>Male 
+				<input type="radio" name="gender" required>Female <br>
+				<label>Age</label>
+				<input type="number" required name="age"><br>
+				
+				<label>Date of birth</label>
+				<input type="date" required name="dob"><br>
+				
+				<label>Favourite color</label>
+				<input type="color" required name="color"><br>
+				
+				<label>Which country</label>
+				<select required name="country">
+					<option value="AF">Afghanistan</option>
+					<option value="AX">Åland Islands</option>
+					<option value="AL">Albania</option>
+					<option value="DZ">Algeria</option>
+					<option value="AS">American Samoa</option>
+					<option value="AD">Andorra</option>
+					
+					<option value="ZW">No selection</option>
+				</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Your indicators</legend>
+			<label>Height:</label> <span class="red">short</span> <input type="range" required min="0" max="100" name="height"><span class="purple">tall</span> <br>
+			<label>Salary:</label> <span class="red">poor</span>  <input type="range" required min="0" max="100" name="salary"><span class="purple">rich</span>
+				
+		</fieldset>
+
+		<fieldset>
+			<legend>Your contact information</legend>
+				<label>Email:</label><input type="email" required name="email"> <br>
+				<label>tel:</label><input type="number" name="tel" ><br>	
+
+				<label>Address:</label><textarea  ></textarea><br>
+				<label>Method to contact you:</label>
+				<input type="checkbox" name="contact" > <label class="auto">Email </label>
+				<input type="checkbox" name="contact" > <label class="auto">Whatsapp</label>  
+				<input type="checkbox" name="contact" > <label class="auto">In app chat </label>
+		</fieldset>
+			
+		<input type="submit" value="submit" name="submit">
+
+	</form>
+
+	
+</body>
+</html>	

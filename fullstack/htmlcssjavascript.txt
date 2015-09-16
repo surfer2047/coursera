@@ -1,0 +1,116 @@
+Main Lanugage for Building web 
+SVG: writing the display system alternative to HTML 
+
+<html>
+<head> <title> A simple web page </title>
+       <meta name="author" content="Manoj Gautam>
+      <meta name="description" contenet "Html css and jaascript"
+      <meta name="keywords contenet "Html
+     <meta charset="utf-8>
+    <base  href="http://www.ust.hk/" target "blank"> <!-- Define where they blogn -->
+        <link rel="stylesheet" href="style.css type="text/css">
+</head>
+<body>
+
+</body>
+
+
+<section>
+<h1> Hello world  </h1>
+</section>
+
+
+<ol start = "1999">
+<li> Hello </li>
+</ol>
+
+<ol start"2002" reversed>
+<li>Test </li>
+
+<ol>
+
+<ol type="a">
+
+<li>Hello </li>
+<li> Test </li>
+</ol>
+
+<big> This wil make this text bigger </big>
+<small> This twll make the text small </small>
+
+<mark> this will makr the hello text </mark>
+
+<sub>Move the text down subscript </sub>
+<sup> Move the text down, called the superscript </sup>
+It is better to use mathml than using <sub> and <sup>
+
+<ins> This will say this text has been inserted </ins>
+<del> this wil say say that this text has been deleted </del>
+
+MULTIMEDIA
+--------------
+<img src="manoj.jpg" width="300" alt="this is my image" />
+<img src="manoj.jpg" width="50%">
+
+<audio src="beets_turnips.mp3" autoplay> </audio>
+<audio src="beet.mp3" autoplay controls> </audio> <!-- autoplay --> will display the audio player 
+<audio src="beet.mp3" autoplay loop> </audio> <!-- loop the sound for example it will be best for the games -->
+use .mp3 sound support on most of the browser
+
+<this_new_html_tage>
+    <p> This not supportd </p>
+</this_new_html_tag>
+
+<audio src="test.mp3" autoplay loop>
+<p> Sorry your browser does not support </p>
+</audio>
+
+<video src="test.mp4" autoplay loop controls> </video>
+
+
+void elements
+================
+break
+three diffrent types of break
+<br>
+<wbr>
+<hr> in html it call thematic break
+
+position
+==========
+absolute: 
+<div style = "
+    position: absolute; top:29px; left:80px; "}
+
+it only control top-left corner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
